@@ -49,6 +49,7 @@ A personal project exploring parsing, execution models, and memory management.
 
 ## Learning & Career Goals
 
+- Modern C++ refactoring of a school C minishell project: on AST, process management, and memory safety
 - Modern C++ refactoring of a school C++98 HTTP server project: on design, ownership, and concurrency
 - Enhancing a modern C++ thread pool: task scheduling, shutdown semantics, and performance trade-offs
 - Extending an interpreter toward compiler concepts(IR and backend fundamentals)
