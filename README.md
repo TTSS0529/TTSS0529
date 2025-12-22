@@ -1,10 +1,15 @@
-## Hi there 👋
-
 ## Hi, I'm Yufeng FAN
 
-System-oriented C++ developer focused on modern C++ concurrency and runtime-level projects.  
-Currently studying at 42, gaining hands-on experience through infrastructure-style implementations rather than toy examples.  
+Currently at 42, building real-world projects with a systems focus.  
 Open to internship opportunities in C++ system programming, concurrency, and compiler/runtime projects.
+
+**Interests**
+- Modern C++
+- Concurrency
+- Runtime Systems
+- Compiler
+- System Programming
+- Networking
 
 ---
 
@@ -37,15 +42,15 @@ A personal project exploring parsing, execution models, and memory management.
 - **Languages**: C++, C (primary); Python, Node.js
 - **Modern C++ (C++11–17)**: RAII, move semantics, smart pointers, perfect forwarding, rule of zero/five, type traits
 - **Concurrency**: mutex, condition_variable, futures
-- **Systems**: Linux, threading, basic networking
+- **Systems**: Linux, threading, networking
 - **Tooling**: CMake, Git, GoogleTest, Google Benchmark
 
 ---
 
 ## Learning & Career Goals
 
-- Modern C++ refactoring of a school C++98 HTTP server project, focusing on design, ownership, and concurrency
-- Further development of a modern C++ thread pool, including task scheduling, shutdown semantics, and performance trade-offs
-- Gradually extending an interpreter project toward compiler concepts(IR and backend fundamentals, as a long-term direction)
+- Modern C++ refactoring of a school C++98 HTTP server project: on design, ownership, and concurrency
+- Enhancing a modern C++ thread pool: task scheduling, shutdown semantics, and performance trade-offs
+- Extending an interpreter toward compiler concepts(IR and backend fundamentals)
 
-**Career Focus**：Seeking internship opportunities where I can contribute to system-level C++ projects, concurrency frameworks, or runtime/compiler development while continuing to grow my expertise in modern C++ and low-level programming.
+**Career Focus**：Seeking internship in system-level C++, concurrency frameworks, or runtime/compiler development while deepening expertise in modern C++ and low-level programming.
