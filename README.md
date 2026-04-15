@@ -1,17 +1,20 @@
 ## Hi, I'm Yufeng FAN
 
-Currently at 42, building real-world projects with a **systems focus**.
-Open to opportunities in **C++ system programming, concurrency, and compiler/runtime projects**.
+Currently at 42, building real-world systems with a focus on **low-level design, concurrency, and backend infrastructure**.
+
+Open to opportunities in:
+**C++ system programming, backend engineering (Go), concurrency frameworks, and runtime/compiler systems**
 
 ---
 
 ## Technical Focus
 
-- **Languages**: C++, C, x86-64 Assembly; Python for scripting
-- **Modern C++ (C++11–17)**: RAII, move semantics, smart pointers, perfect forwarding, rule of zero/five, type traits
-- **Concurrency & Multithreading**: std::thread, std::mutex, std::condition_variable, std::future, thread pool patterns
-- **Systems & Runtime**: Linux, memory management, low-level system calls, runtime abstractions, threading, networking
-- **Tooling**: CMake, Git, GoogleTest, Google Benchmark
+- **Languages**: C++, C, Go, x86-64 Assembly; Python for scripting
+- **Modern C++ (C++11–17)**: RAII, move semantics, smart pointers, template metaprogramming, type traits
+- **Backend Engineering (Go)**: HTTP services, concurrency (goroutines, channels), REST APIs, service architecture
+- **Concurrency & Multithreading**: std::thread, mutex, condition_variable, future, thread pools
+- **Systems & Runtime**: Linux, epoll, memory management, low-level system calls, runtime abstractions, threading, networking
+- **Tooling**: CMake, Git, Docker, GoogleTest, Google Benchmark
 
 ---
 
@@ -25,6 +28,24 @@ A lightweight, modern C++17 thread pool designed for clarity, correctness, and p
 - Benchmarked against Boost.Asio thread pool
 
 → [GitHub Repository](https://github.com/TTSS0529/modern-cpp-thread-pool)
+
+---
+
+### 🌐 webserv-refactor (HTTP/1.1 server)
+A lightweight, fully custom HTTP/1.1 server originally built during the 42 curriculum, now extended as a **refactoring and systems design exploration project**.
+
+- Event-driven architecture based on `epoll`
+- HTTP/1.1 compliant: persistent connections, chunked transfer encoding
+- CGI execution model (Python / PHP) with timeout & error handling
+- Nginx-like configuration system with virtual hosts and routing
+
+**Refactor focus:**
+- Decoupling configuration from runtime via environment-based paths (`$WEBSERV_ROOT`)
+- Modularization of request → response pipeline
+- Cleaner execution flow and separation of concerns
+- Experimental thread pool integration (CPU-bound workload exploration)
+
+→ [GitHub Repository](https://github.com/TTSS0529/Webserv-Refactor)
 
 ---
 
@@ -52,9 +73,21 @@ A personal project exploring parsing, execution models, and memory management.
 
 ## Learning & Career Goals
 
-- Modern C++ refactoring of a school C minishell project: on AST, process management, and memory safety
-- Modern C++ refactoring of a school C++98 HTTP server project: on design, ownership, and concurrency
-- Enhancing a modern C++ thread pool: task scheduling, shutdown semantics, and performance trade-offs
-- Extending an interpreter toward compiler concepts(IR and backend fundamentals)
+- Evolving Webserv into a **modern event-driven HTTP server architecture**
+  (epoll + concurrency + clean request lifecycle design)
+- Deepening Go backend engineering (distributed systems, service design, concurrency patterns)
+- Building a bridge between **systems programming (C++) and backend services (Go)**
+- Exploring compiler fundamentals: IR design, parsing, and code generation
+- Improving performance engineering and runtime-level optimization skills
 
-**Career Focus**：Seeking opportunities in system-level C++, concurrency frameworks, or runtime/compiler development while deepening expertise in modern C++ and low-level programming.
+---
+
+## Career Focus
+
+Seeking opportunities in:
+- System-level C++ development
+- Backend engineering (Go)
+- High-performance networking systems
+- Runtime / compiler / infrastructure engineering
+
+with a strong emphasis on **concurrency, low-level design, and production-grade architecture thinking**
