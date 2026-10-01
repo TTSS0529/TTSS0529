@@ -1,24 +1,38 @@
 ## Hi, I'm Yufeng FAN
 
-Currently at 42, building real-world systems with a focus on **low-level design, concurrency, and backend infrastructure**.
-
-Open to opportunities in:
-**C++ system programming, backend engineering (Go), concurrency frameworks, and runtime/compiler systems**
+Currently at École 42, building backend and systems projects with Go, C, and C++.  
+I'm currently looking for backend / systems internship opportunities, with a focus on Go backend development while continuing to build on my C/C++ systems background.
 
 ---
 
 ## Technical Focus
 
-- **Languages**: C++, C, Go, x86-64 Assembly; Python for scripting
+- **Languages**: Go, C++, C, Go, x86-64 Assembly; Python for scripting
+- **Go**: HTTP servers, REST APIs, PostgreSQL, authentication, concurrency, testing
+- **Backend**: HTTP services, concurrency, REST APIs, PostgreSQL, authentication, Docker
 - **Modern C++ (C++11–17)**: RAII, move semantics, smart pointers, template metaprogramming, type traits
-- **Backend Engineering (Go)**: HTTP services, concurrency (goroutines, channels), REST APIs, service architecture
-- **Concurrency & Multithreading**: std::thread, mutex, condition_variable, future, thread pools
+- **Concurrency**: goroutines, channels, std::thread, mutex, condition_variable, future, thread pools
 - **Systems & Runtime**: Linux, epoll, memory management, low-level system calls, runtime abstractions, threading, networking
-- **Tooling**: CMake, Git, Docker, GoogleTest, Google Benchmark
+- **Tooling**: CMake, Make, Git, Docker, GoogleTest, Google Benchmark, Github Actions
 
 ---
 
 ## Featured Projects
+
+### 🚀 Greenlight API
+
+A production-style RESTful movie catalog API built with Go and PostgreSQL, following practical backend engineering patterns.
+
+- RESTful JSON API with CRUD operations, filtering, sorting, and pagination
+- PostgreSQL full-text search and database connection pooling
+- Authentication, authorization and token-based authentication
+- Request validation, rate limiting, graceful shutdown, and structured logging
+- Containerized deployment with Docker Compose and Caddy
+- Automated testing and CI with GitHub Actions
+
+→ [GitHub Repository](https://github.com/TTSS0529/greenlight-api)
+
+---
 
 ### 🧵 modern-cpp-thread-pool
 A lightweight, modern C++17 thread pool designed for clarity, correctness, and practical performance.
@@ -71,23 +85,20 @@ A personal project exploring parsing, execution models, and memory management.
 
 ---
 
-## Learning & Career Goals
+## Background
 
-- Evolving Webserv into a **modern event-driven HTTP server architecture**
-  (epoll + concurrency + clean request lifecycle design)
-- Deepening Go backend engineering (distributed systems, service design, concurrency patterns)
-- Building a bridge between **systems programming (C++) and backend services (Go)**
-- Exploring compiler fundamentals: IR design, parsing, and code generation
-- Improving performance engineering and runtime-level optimization skills
+My systems programming background comes from building projects in **C and C++**, including process management, networking, concurrency, memory management, and low-level runtime behavior.
 
----
+More recently, I have been using **Go to develop backend services**, focusing on HTTP APIs, databases, concurrency, testing, and production-oriented engineering practices.
 
 ## Career Focus
 
-Seeking opportunities in:
-- System-level C++ development
-- Backend engineering (Go)
-- High-performance networking systems
-- Runtime / compiler / infrastructure engineering
+Seeking backend or systems internships / junior opportunities, particularly in:
 
-with a strong emphasis on **concurrency, low-level design, and production-grade architecture thinking**
+- Go backend development
+- C/C++ systems programming
+- Networking and infrastructure
+- Concurrency
+- Runtime and low-level systems
+
+I'm interested in roles where I can combine practical backend engineering with my existing systems programming background.
